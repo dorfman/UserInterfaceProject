@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0062a7"
+    android:orientation="vertical"
+    tools:context="com.example.android.userinterfaceproject.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="10dp" android:layout_marginTop="10dp"
+        android:src="@drawable/gpf_logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" android:padding="15dp"
+        android:textColor="#FFFFFF" android:textSize="14sp"
+        android:text="@string/business_description"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="3" android:scaleType="centerCrop"
+        android:src="@drawable/middle_east" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5" android:padding="15dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" android:textSize="14sp"
+            android:text="geopoliticalfutures.com" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" android:textSize="14sp"
+            android:text="Subscriber Support" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF" android:textSize="14sp"
+            android:text="M-F, 9am - 7pm EST" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF" android:textSize="14sp"
+            android:text="support@geopoliticalfutures.com" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF" android:textSize="14sp"
+            android:text="Toll Free: 1-888-982-8217" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF" android:textSize="14sp"
+            android:text="International Callers: 1-512-687-3444"/>
+
+    </LinearLayout>
+</LinearLayout>
